@@ -18,7 +18,7 @@ function CartScreen(props) {
     }
   }, [dispatch, productId, qty]);
   const removeFromCartHandler = (id) => {
-    //delete action
+    // delete items
     dispatch(removeFromCart(id));
   };
   const checkOutHandler = () => {
