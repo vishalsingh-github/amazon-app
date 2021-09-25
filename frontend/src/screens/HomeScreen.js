@@ -14,7 +14,6 @@ function HomeScreen() {
   }, [dispatch]);
   return (
     <div>
-      {console.log(error)}
       {loading ? (
         <LoadingBox />
       ) : error ? (

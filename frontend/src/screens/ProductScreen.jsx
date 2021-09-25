@@ -23,7 +23,6 @@ function ProductScreen(props) {
   };
   return (
     <div>
-      {console.log(error)}
       {loading ? (
         <LoadingBox />
       ) : error ? (
